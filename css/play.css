@@ -1,0 +1,99 @@
+section>ul {
+	margin: 0 0.8rem 0 0.5rem;
+}
+
+section>ul>li {
+	margin-bottom: 30px;
+}
+
+section>ul>li:first-child {
+	margin-bottom: 15px;
+}
+
+
+/* 搜索框 */
+
+.microSearch {
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+}
+
+.microSearch>b {
+	display: inline-block;
+	background: url('../img/micro.png') no-repeat;
+	width: 1.5rem;
+	height: 1.5rem;
+	-wekit-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	top: 14px;
+	left: 3px;
+}
+
+.microSearch>input {
+	display: inline-block;
+	width: 100%;
+	padding-left: 10%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #c8c8c8;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0);
+}
+
+
+/* 活动栏目 */
+
+.picbg>img {
+	width: 100%;
+	display: block;
+}
+
+.picbgContrent {
+	height: 4rem;
+	background: #FDA688;
+	position: relative;
+}
+
+.picbgContrent>p:first-child {
+	position: absolute;
+	top: .3rem;
+	left: .6rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+.picbgContrent>p:nth-child(2) {
+	position: absolute;
+	bottom: .5rem;
+	left: .6rem;
+}
+
+.picbgContrent>p:nth-child(2)>span {
+	color: #E3555D;
+}
+
+.picbgContrent>p:last-child {
+	position: absolute;
+	bottom: .5rem;
+	right: 1.6rem;
+}
+
+
+/* 排序标签 */
+
+.sortPic {
+	display: inline-block;
+	width: 2.7rem;
+	height: 2.7rem;
+	background: url('../img/sort.png') no-repeat;
+	-wekit-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+}

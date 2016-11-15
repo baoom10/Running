@@ -1,0 +1,129 @@
+/* 头部图片 */
+
+header>img {
+	width: 100%;
+	display: block;
+}
+
+
+/* 主题内容 */
+section{
+	font-size:1.2rem;
+}
+section>ul {
+	margin: 0 0.5rem 0 0.8rem;
+	padding-top: 15px;
+}
+
+section>ul>li {
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 5px;
+}
+
+section>ul>li span {
+	margin-left: 20px;
+	color: #383838;
+}
+
+section>ul>li:first-child b {
+	background: url('../img/playItem.png') no-repeat 0 0px;
+}
+
+section>ul>li:nth-child(2) b {
+	background: url('../img/playItem.png') no-repeat 0 -45px;
+}
+
+section>ul>li:nth-child(3) b {
+	background: url('../img/playItem.png') no-repeat 0 -92px;
+}
+
+section>ul>li:last-child b {
+	background: url('../img/playItem.png') no-repeat 0 -141px;
+}
+
+section>ul>li:first-child b,
+section>ul>li:nth-child(2) b,
+section>ul>li:nth-child(3) b,
+section>ul>li:last-child b {
+	display: inline-block;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 5rem;
+	height: 2rem;
+	vertical-align: middle;
+}
+
+.activeName {
+	position: relative;
+}
+
+.aleft {
+	width: 40%;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 65px;
+}
+
+.a2 {
+	font-size: 4rem;
+	font-style: oblique;
+	color: #383838;
+	font-weight: bold;
+}
+
+.aright {
+	position: absolute;
+	right: 2rem;
+	top: 4rem;
+	width: 40%;
+}
+
+
+/* 底部三项 */
+
+footer {
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-size: 0;
+	font-style: oblique;
+	text-align: center;
+	font-weight: bold;
+}
+
+.f1,
+.f2,
+.f3 {
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+}
+
+.f1 {
+	width: 40%;
+	font-size: 1rem;
+	color: #383838;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F8F8F8), to(#C8C8C8));
+	background: -webkit-linear-gradient(top, #F8F8F8, #C8C8C8);
+	background: -moz-linear-gradient(top, #F8F8F8, #C8C8C8);
+	background: -o-linear-gradient(top, #F8F8F8, #C8C8C8);
+}
+
+.f1>span {
+	font-size: 1.5rem;
+	color: #FF0048;
+}
+
+.f2,
+.f3 {
+	width: 30%;
+	font-size: 1.5rem;
+	color: #D33646;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFB298), to(#FD7382));
+	background: -webkit-linear-gradient(top, #FFB298, #FD7382);
+	background: -moz-linear-gradient(top, #FFB298, #FD7382);
+	background: -o-linear-gradient(top, #FFB298, #FD7382);
+}

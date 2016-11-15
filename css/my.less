@@ -1,0 +1,36 @@
+/* 大背景公用颜色部分 */
+@colors:#F8F8F8;
+@colore:#E8E8E8;
+@color1s:#E8E8E8;
+@color1e:#F8F8F8;
+@color2s:#D9D9D9;
+@color2e:#F8F8F8;
+@color3s:#FFFFFF;
+@color3e:#EEEEEE;
+.bgColor {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@colors), to(@colore));
+	background: -webkit-linear-gradient(top, @colors, @colore);
+	background: -moz-linear-gradient(top, @colors, @colore);
+	background: -o-linear-gradient(top, @colors, @colore);
+}
+
+.bgColor1 {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@color1s), to(@color1e));
+	background: -webkit-linear-gradient(top, @color1s, @color1e);
+	background: -moz-linear-gradient(top, @color1s, @color1e);
+	background: -o-linear-gradient(top, @color1s, @color1e);
+}
+
+.bgColor2 {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@color2s), to(@color2e));
+	background: -webkit-linear-gradient(top, @color2s, @color2e);
+	background: -moz-linear-gradient(top, @color2s, @color2e);
+	background: -o-linear-gradient(top, @color2s, @color2e);
+}
+
+.bgColor3 {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@color3s), to(@color3e));
+	background: -webkit-linear-gradient(top, @color3s, @color3e);
+	background: -moz-linear-gradient(top, @color3s, @color3e);
+	background: -o-linear-gradient(top, @color3s, @color3e);
+}
